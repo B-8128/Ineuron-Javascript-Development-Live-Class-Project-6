@@ -48,7 +48,7 @@
 
 
 # HERE IS THE PREVIEW HOW THIS PROJECT LOOKS😍
-># [LIVE [HOSTED] PROJECT LINK](https://brijesh8128-live-class-project-5.netlify.app/ "Project-5-Netlify")
+># [LIVE [HOSTED] PROJECT LINK](https://brijesh8128-live-class-project-6.netlify.app/ "Project-6-Netlify")
 >![Screenshot](./screenshot/screenshot.png)
 
 
