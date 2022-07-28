@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live-class-project-06</title>
+    <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Allerta';
+        }
+        
+        body {
+            background-color: #f4f3f8;
+        }
+        /* Navbar  */
+        
+        #navbarMonstera {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        #navMid {
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: -150px;
+            margin-top: 50px;
+            font-size: 1.2rem;
+        }
+        
+        #navMid div {
+            margin-left: 60px;
+        }
+        
+        #navEnd {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        #navFirst {
+            margin-top: 47px;
+            margin-left: -170px;
+        }
+        
+        #navEnd div {
+            margin-left: 30px;
+            margin-top: 48px;
+        }
+        /* Whole Part  */
+        
+        #midWhole {
+            width: 100%;
+            float: left;
+        }
+        
+        #midWholePart1 {
+            width: 50%;
+            float: left;
+        }
+        
+        #flower img {
+            margin-left: 241px;
+        }
+        
+        #midWholePart11 {
+            position: absolute;
+            left: 3%;
+            top: 30%;
+        }
+        
+        #monstera {
+            font-size: 7rem;
+        }
+        
+        #para {
+            width: 65%;
+        }
+        
+        #part2 {
+            position: absolute;
+            top: 70%;
+            font-size: 2rem;
+            background-color: #466d50;
+            border: none;
+            border-radius: 20px;
+            padding-left: 20px;
+            color: #fff;
+            left: 2%;
+            z-index: -1;
+            width: 16%;
+        }
+        
+        #midWholePart13 {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: 75%;
+            left: 2%;
+            width: 70%;
+        }
+        
+        #midWholePart122 {
+            margin-top: 384px;
+            margin-left: 225px;
+        }
+        
+        #first {
+            display: inline-block;
+            position: relative;
+        }
+        
+        #first:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            bottom: -15%;
+            border-bottom: 2px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav id="navbarMonstera">
+        <div id="navFirst">
+            <img src="./photos/Logo.svg" width="75%" />
+        </div>
+
+        <div id="navMid">
+            <div>
+                <h4 id="first">Home</h4>
+            </div>
+            <div>
+                <h4>Collection</h4>
+            </div>
+            <div>
+                <h4>Shop</h4>
+            </div>
+            <div>
+                <h4>About</h4>
+            </div>
+            <div>
+                <h4>Contact</h4>
+            </div>
+        </div>
+
+        <div id="navEnd">
+            <div>
+                <img src="/photos/cart.svg" width="75%" />
+            </div>
+            <div>
+                <img src="./photos/user.svg" width="75%" />
+            </div>
+            <div>
+                <img src="./photos/search.svg" width="75%" />
+            </div>
+        </div>
+    </nav>
+    <!-- whole part -->
+    <div id="midWhole">
+        <div id="midWholePart1">
+            <div id="midWholePart11">
+                <div>
+                    <ul>
+                        <li>
+                            <h1 id="monstera">MONSTERA</h1>
+                        </li>
+                        <li></li>
+                        <div id="para">
+                            <li>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis ab li veniam adipisci corrupti unde, nostrum saepe.
+                            </li>
+                            <li>
+                                Quibusdam perferendis, dolore est odit iste cum quas quidem officiis laudantium hic maxime recusandae?
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div id="midWholePart12">
+                <div id="midWholePart121">
+                    <div id="part2">
+                        <pre>DISCOVER  </pre>
+                    </div>
+                    <div id="midWholePart122">
+                        <img src="./photos/greaterThan.svg" />
+                    </div>
+                </div>
+            </div>
+            <div id="midWholePart13">
+                <div class="midWholePart13Parts" style="margin-top:50px ;">
+                    <div>
+                        <img id="feeding" src="./photos/water plant.png" style="width: 25%; float:left; margin-right: 10px; " />
+                    </div>
+                    <div id="description">
+                        <h4>Feeding</h4>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consecteturadipisicing elit
+                        </p>
+                    </div>
+                </div>
+                <div class="midWholePart13Parts" style="margin-top:50px ;">
+                    <div>
+                        <img id="light" src="./photos/light.svg" alt="" style="width: 11%; float:left; margin-right: 10px; " />
+                    </div>
+                    <div id="description">
+                        <h4>Light</h4>
+                        <p class="text" style="width: 80%;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        </p>
+                    </div>
+                </div>
+                <div class="midWholePart13Parts" style="margin-top:50px ; margin-left: -50px;">
+                    <div>
+                        <img id="care" src="./photos/plough.svg" style="width: 15%; float:left; margin-right: 10px; " />
+                    </div>
+                    <div>
+                        <h4 id="description">Care</h4>
+                        <p class="text" style="width: 90%;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="flower">
+            <img id="imgMain" src="./photos/6_folwer_cut.png" width="32.1%" />
+        </div>
+    </div>
+</body>
+
+</html>
